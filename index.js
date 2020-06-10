@@ -80,6 +80,7 @@ function removeFlavorByName(arr, flavor) {
 // Task 6 -----------------------------------------------------------------------------------------------------
 
 function copy(currentArr, newArr) {
+  newArr = newArr || [];
   newArr = [...newArr, ...currentArr];
   console.log(newArr);
   return newArr;
@@ -94,6 +95,7 @@ function filterByWord(arr, flavor) {
       filteredArray.push(arr[i]);
     }
   }
+  g;
   console.log(filteredArray);
   return filteredArray;
 }
