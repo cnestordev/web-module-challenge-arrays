@@ -95,7 +95,6 @@ function filterByWord(arr, flavor) {
       filteredArray.push(arr[i]);
     }
   }
-  g;
   console.log(filteredArray);
   return filteredArray;
 }
@@ -196,7 +195,6 @@ var regionalFlavors = [
 ];
 
 function getRandomFlavors(arr1, arr2, arr3, arr4) {
-  debugger;
   const allFlavors = [...arr1, ...arr2, ...arr3, ...arr4];
   const totalFlavors = allFlavors.length;
   const randomFlavors = [];
